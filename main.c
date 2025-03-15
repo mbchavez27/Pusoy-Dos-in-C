@@ -1,6 +1,12 @@
 #include "headers.h"
 #include <stdio.h>
 
-void setupDeck() {}
+int main() {
+  CARD deck[DECKSIZE] = {0};
 
-int main() {}
+  for (int i = 0; i < DECKSIZE; i++) {
+    printf("%d %d\n", deck[i].rank, deck[i].suit);
+  }
+
+  return 0;
+}

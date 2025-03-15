@@ -1,5 +1,5 @@
-#define MAXCARDS 52
-#define CARDSPERPLAYER
+#define HANDSIZE 13
+#define DECKSIZE 52
 
 typedef enum {
   THREE = 3,
